@@ -89,10 +89,9 @@ The cleaned analytical dataset contains 32 columns after removing three constant
 The original dataset is not included in this repository. Refer to the dataset source and usage terms before downloading or redistributing it.
 
 ## Project Documentation
-
-- [Business Questions](Documentation/Business_Questions.md)
-- [Data Cleaning](Documentation/Data_Cleaning.md)
-- [Key Findings](Documentation/Key_Findings.md)
+- [Business Questions](04_Documentation/Business_Questions.md)
+- [Data Cleaning](04_Documentation/Data_Cleaning.md)
+- [Key Findings](04_Documentation/Key_Findings.md)
 
 ## Limitations
 
