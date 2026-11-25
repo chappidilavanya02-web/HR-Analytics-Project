@@ -6,17 +6,17 @@ An end-to-end HR Analytics project exploring employee attrition patterns, workfo
 
 ### 1. HR Overview
 
-![HR Overview](Screenshots/HR_Overview.png)
+![HR Overview](./06_Screenshots/HR_Overview.png)
 
 ### 2. Employee Attrition Analysis
 
-![Employee Attrition Analysis](Screenshots/Employee_Attrition_Analysis.png)
+![Employee Attrition Analysis](./06_Screenshots/Employee_Attrition_Analysis.png)
 
 ### 3. Employee Retention Analysis
 
-![Employee Retention Analysis](Screenshots/Employee_Retention_Analysis.png)
+![Employee Retention Analysis](./06_Screenshots/Employee_Retention_Analysis.png)
 
----
+----
 
 ## Project Overview
 
