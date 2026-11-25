@@ -33,8 +33,7 @@ The project uses Python for data inspection, data quality assessment and cleanin
 - How do job satisfaction and work-life balance relate to attrition?
 - How does attrition vary across employee tenure and promotion history?
 
-See [Business Questions](Documentation/Business_Questions.md).
-
+See [Business Questions](04_Documentation/Business_Questions.md).
 ## Key Findings
 
 - Overall employee attrition rate is approximately **16.1%**.
@@ -45,8 +44,7 @@ See [Business Questions](Documentation/Business_Questions.md).
 - Employees in the lowest monthly income band show higher attrition than those in the highest band.
 - Employees in their first year at the company show a high attrition rate.
 
-See [Key Findings](Documentation/Key_Findings.md) for detailed results.
-
+See [Key Findings](04_Documentation/Key_Findings.md) for detailed results.
 ## Tools and Technologies
 
 - **Python:** Data analysis and preparation
