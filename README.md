@@ -12,9 +12,9 @@ An end-to-end HR Analytics project exploring employee attrition patterns, workfo
 
 ![Employee Attrition Analysis](./06_Screenshots/Employee_Attrition_Analysis.png)
 
-### 3. Employee Retention Analysis
+### 3. Tenure & Career attirition Analysis
 
-![Employee Retention Analysis](./06_Screenshots/Employee_Retention_Analysis.png)
+![Employee Retention Analysis](./06_Screenshots/Tenure_&_Career_Attrition_Analysis.png)
 
 ----
 
