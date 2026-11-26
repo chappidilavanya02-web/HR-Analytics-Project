@@ -51,23 +51,28 @@ Since no missing values or duplicate records were identified, no imputation or d
 
 ## 5. Outlier Treatment
 
-The Interquartile Range (IQR) method was used to identify potential outliers in selected numerical columns.
+The Interquartile Range (IQR) method was used to identify potential statistical outliers in selected numerical columns.
 
-The flagged values were investigated using relevant employee attributes and business context.
+The flagged records were assessed using available employee attributes and relevant business context.
 
-| Column | Potential Outliers | Cleaning Decision |
-|---|---:|---|
-| Age | 0 | No outlier treatment required |
-| TotalWorkingYears | 63 | Retained after investigation |
-| YearsAtCompany | 104 | Retained |
-| DistanceFromHome | 0 | No outlier treatment required |
-| MonthlyIncome | 114 | Retained after investigation |
+| Column | Potential Outliers | IQR Upper Boundary | Cleaning Decision |
+|---|---:|---:|---|
+| Age | 0 | 62.5 | No outlier treatment required |
+| TotalWorkingYears | 63 | 28.5 | Retained after reviewing selected records and business context |
+| YearsAtCompany | 104 | 18 | Retained; all flagged values were above the upper boundary |
+| DistanceFromHome | 0 | 32 | No outlier treatment required |
+| MonthlyIncome | 114 | 16,581 | Retained after reviewing salary distributions and job-role context |
 
-**Decision:**
+**Decision and justification:**
 
 No employee records were removed solely because they were identified as statistical outliers.
 
-High experience, company tenure and income values can represent legitimate employee characteristics.
+- **TotalWorkingYears:** Selected records were reviewed. High career experience was considered plausible based on employee age and job-role context.
+- **YearsAtCompany:** All 104 flagged records were above the upper IQR boundary of 18 years. These values were retained because high company tenure can represent legitimate long-term employment. Individual investigation of all 104 records was not documented.
+- **MonthlyIncome:** The flagged values were concentrated among senior roles, including Managers and Research Directors. Higher salaries were considered plausible for these positions.
+
+The IQR method identifies statistically unusual values but does not establish that those values are data errors. Therefore, the flagged records were retained rather than automatically removed.
+
 
 ## 6. Business Rule Validation
 
