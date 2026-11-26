@@ -6,17 +6,15 @@ An end-to-end HR Analytics project exploring employee attrition patterns, workfo
 
 ### 1. HR Overview
 
-![HR Overview](./06_Screenshots/HR_Overview.png)
+![HR Overview](./06_Screenshots/HR_Overview_dashboard.png)
 
 ### 2. Employee Attrition Analysis
 
-![Employee Attrition Analysis](./06_Screenshots/Employee_Attrition_Analysis.png)
+![Employee Attrition Analysis](./06_Screenshots/Employee_attirition_analysis.png)
 
 ### 3. Tenure & Career attirition Analysis
 
-![Employee Retention Analysis](./06_Screenshots/Tenure_&_Career_Attrition_Analysis.png)
-
-----
+![Employee Retention Analysis](./06_Screenshots/Tenure&Career_Attirition_analysis.png)
 
 ## Project Overview
 
@@ -34,6 +32,7 @@ The project uses Python for data inspection, data quality assessment and cleanin
 - How does attrition vary across employee tenure and promotion history?
 
 See [Business Questions](04_Documentation/Business_Questions.md).
+
 ## Key Findings
 
 - Overall employee attrition rate is approximately **16.1%**.
@@ -45,6 +44,7 @@ See [Business Questions](04_Documentation/Business_Questions.md).
 - Employees in their first year at the company show a high attrition rate.
 
 See [Key Findings](04_Documentation/Key_Findings.md) for detailed results.
+
 ## Tools and Technologies
 
 - **Python:** Data analysis and preparation
@@ -74,7 +74,7 @@ See [Key Findings](04_Documentation/Key_Findings.md) for detailed results.
 |---|---|
 | HR Overview | Overall workforce metrics and attrition patterns |
 | Employee Attrition Analysis | Attrition across job roles, overtime, income and employee characteristics |
-| Employee Retention Analysis | Attrition patterns across tenure, experience and promotion history |
+| Tenure & Career Attrition Analysis | Attrition patterns across company tenure, role tenure, experience and promotion history |
 
 ## Dataset
 
@@ -84,9 +84,11 @@ The dataset contains **1,470 employee records and 35 original columns**.
 
 The cleaned analytical dataset contains 32 columns after removing three constant-value columns that did not contribute to the analysis.
 
-The original dataset is not included in this repository. Refer to the dataset source and usage terms before downloading or redistributing it.
+Both the raw dataset and cleaned dataset are included in the repository.
+
 
 ## Project Documentation
+
 - [Business Questions](04_Documentation/Business_Questions.md)
 - [Data Cleaning](04_Documentation/Data_Cleaning.md)
 - [Key Findings](04_Documentation/Key_Findings.md)
@@ -98,6 +100,7 @@ The original dataset is not included in this repository. Refer to the dataset so
 - Attrition patterns indicate associations, not proven causes.
 - The dataset does not support true time-based retention or survival analysis.
 - Income currency is not specified in the analysis, so income values are presented in the dataset's original units.
+- The reported retention rate represents the proportion of employees classified as not having left in this dataset; it is not a period-based retention measure.
 
 ## Conclusion
 
